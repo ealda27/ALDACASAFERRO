@@ -1,0 +1,72 @@
+
+.bg-light-green{
+    background-color: rgb(231, 226, 180);
+    
+
+    .img-fluid{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0;
+    width: 100%;
+    height: 90%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: double;
+    }
+    .img-fluid:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+    }   
+
+    @media screen and (max-width: 480px){   
+    .productotexto{
+        line-height: 1;
+        font-size: 50%;
+    }        
+    .producto_titulo{
+        line-height: 1;
+        font-size: 50%;
+    }
+    .producto_parrafo{
+        line-height: 1;
+        font-size: 50%;
+    }              
+}
+}
+/*Animaciones Productos inicio*/
+@-webkit-keyframes scale-in-bottom {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-bottom {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+  }
+  
+/*Animaciones Productos fin*/

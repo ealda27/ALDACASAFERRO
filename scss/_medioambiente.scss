@@ -1,0 +1,30 @@
+.medioambiente{
+    position: relative;
+    align-items: center;
+
+    .medioambiente_titulo{
+    text-align: center;
+    color: #8f82128c;
+    }
+    .medioambiente_video{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    align-content: center;
+    background-size: contain;
+    background-repeat: no repeat;
+    }
+    .medioambiente_parrafo{
+    color: #8f82128c;
+    line-height: 3;
+    text-align: center;
+    }
+    @media screen and (max-width: 480px){ 
+     .medioambiente_parrafo{
+        line-height: 1;
+        font-size: 70%;
+
+     }
+}
+}
+

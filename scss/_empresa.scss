@@ -1,0 +1,52 @@
+
+.content-center {
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    color:#9da61b;
+
+    .empresa_titulo{
+        margin-bottom: 0 px;
+        color: #9da61b;
+        text-decoration: none;
+    }
+    .empresa_parrafo{
+        color:#e0cf2ebd;
+        text-decoration: none; 
+    }
+}
+
+.presentacion-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+
+    .presentacion-details{
+    position:absolute;
+    bottom: 15px;
+    left: 25px;
+    z-index: 2000;
+    text-decoration: none;}
+
+    .empresafototitulo{
+    color: #9da61b;
+    }
+}
+
+.img-fluid{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0;
+    width: 100%;
+    height: 90%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 15px 50px;
+}
+.img-fluid:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
