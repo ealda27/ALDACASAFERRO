@@ -1,4 +1,8 @@
+$estiloproducto:(
+        color:rgb(87, 76, 16));
 
+
+/*Productos*/
 .bg-light-green{
     background-color: rgb(231, 226, 180);
     
@@ -70,3 +74,13 @@
   }
   
 /*Animaciones Productos fin*/
+
+
+/*map-get*/
+
+.bd-highlight {
+        background-color: map-get($map: $estiloproducto, $key: color);
+
+}
+
+        

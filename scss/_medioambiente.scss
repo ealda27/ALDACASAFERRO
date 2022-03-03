@@ -1,10 +1,16 @@
+$color1:#9da61b; 
+$color2:#e0cf2ebd; 
+$color3:#8f82128c ;
+$color4:#fcf9f9 ;
+
+/*MedioAmbiente*/
 .medioambiente{
     position: relative;
     align-items: center;
 
     .medioambiente_titulo{
     text-align: center;
-    color: #8f82128c;
+    color: $color3;
     }
     .medioambiente_video{
     width: 100%;
@@ -15,7 +21,7 @@
     background-repeat: no repeat;
     }
     .medioambiente_parrafo{
-    color: #8f82128c;
+    color: $color3;
     line-height: 3;
     text-align: center;
     }
@@ -26,5 +32,21 @@
 
      }
 }
+
+/*Mixin*/
+@mixin fontstyle {
+   color:$color3;
+   background-color: $color2;  
 }
+.medioambiente_titulo{
+   font-size: 40px;
+   @include fontstyle();
+}
+.medioambiente_parrafo{
+   font-size: 20px;
+   @include fontstyle();
+
+}
+}
+
 

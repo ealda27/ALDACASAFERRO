@@ -1,3 +1,9 @@
+$color1:#9da61b; 
+$color2:#e0cf2ebd; 
+$color3:#8f82128c ;
+$color4:#fcf9f9 ;
+
+/*Header*/
 .header{
     align-items: center;
     justify-content: space-between;
@@ -10,7 +16,7 @@
     border-radius: 83px 83px 83px 83px;
     -moz-border-radius: 83px 83px 83px 83px;
     -webkit-border-radius: 83px 83px 83px 83px;
-    border: 6px double #9da61b;
+    border: 6px double $color1;
     -webkit-animation: bounce-top 1.5s both;
     animation: bounce-top 1.5s both;
 
@@ -129,3 +135,21 @@
   .card-img-top{
         border-radius: 15px 50px;
   }
+
+  /*Map*/
+
+  $estilos: (
+                "verde": #9da61b,
+                "amarillo": #d1ce1e,
+                "gris" : rgb(168, 162, 131)) ;
+                
+@each $color, $valor in $estilos {
+        .card-text#{ $color} {
+                color:$valor;
+        }
+        
+}
+
+
+
+

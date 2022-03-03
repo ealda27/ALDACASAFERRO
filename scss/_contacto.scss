@@ -1,10 +1,16 @@
 
+$color1:#9da61b; 
+$color2:#e0cf2ebd; 
+$color3:#8f82128c ;
+$color4:#fcf9f9 ;
+
+/*Contacto*/
 .contacto{
 
     .contacto_titulo{
         font-size: 30px; margin-bottom: 10px;
         margin-top: 50px;
-        color: #8f82128c;
+        color: $color3;
         text-decoration: none;
         text-align: center;
     
@@ -17,24 +23,24 @@
         border-radius:10px;
         margin:auto;
         margin-bottom: 20px;
-        background-color:#8f82128c;
-        color: #8f82128c;
+        background-color:$color3;
+        color: $color3;
     }
 
     .contacto_label{
         width:100%;
         font-weight:bold;
         display:inline-block;
-        color: #8f82128c;
+        color: $color3;
     }
 
 form input[type="text"],
 form input[type="email"]{
     width:100px;
     padding:3px 10px;
-    border:1px solid #f6f6f6;
+    border:1px solid $color4;
     border-radius:3px;
-    background-color:#8f82128c;
+    background-color:$color3;
     margin:10px 10px;
     display:inline-block;
 }
@@ -46,7 +52,7 @@ form input[type="submit"]{
     border:1px solid burlywood;
     border-radius:5px;
     display:block;
-    color:#fff;
+    color:$color4;
     background-color:#5a530f8c;
 } 
 
@@ -57,9 +63,9 @@ form input[type="submit"]:hover{
 .comentario{
     width:100%;
     height:100px;
-    border:1px solid #f6f6f6;
+    border:1px solid $color4;
     border-radius:3px;
-    background-color:#f6f6f6;           
+    background-color: $color4;           
     margin:8px 0;
     resize:none;
     display:block;

@@ -1,10 +1,16 @@
+$color1:#9da61b; 
+$color2:#e0cf2ebd; 
+$color3:#8f82128c ;
+$color4:#fcf9f9 ;
+
+/*Hero*/
 .hero{
     background-image:url(../imagenes/imagenprincipal1.jpg);
     background-size: cover;
     padding-top: 90px;
     margin:10px;
     min-height: 300px;
-    color: #ffffff;
+    color: $color4;
     -webkit-animation: kenburns-top 5s ease-out both;
     animation: kenburns-top 5s ease-out both;
     position: relative;
@@ -12,7 +18,7 @@
   &_contenedor{
      .hero_titulo{
             font-size: 66px; font-weight: 600; line-height: 80px;
-            color: #9da61b;
+            color: $color1;
             margin-left: 200px;
             -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
             animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -22,7 +28,7 @@
             line-height: 1.8;
             margin-bottom: 0;
             margin-left: 200px;
-            color: #9da61b;
+            color: $color1;
             text-decoration: none;
         }
     .hero_btn{
@@ -66,9 +72,12 @@
         min-width: 80px;
         align-items: center;
       }
-}
-}
 
+      
+    }}   
+     
+
+      
 /*Animacion CasaFerro inicio*/
 @-webkit-keyframes tracking-in-contract-bck {
     0% {

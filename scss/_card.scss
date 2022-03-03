@@ -1,8 +1,14 @@
+$color1:#9da61b; 
+$color2:#e0cf2ebd; 
+$color3:#8f82128c ;
+$color4:#fcf9f9 ;
+
+/*Cards*/
 .card-body{
     .card-title{
-        color: #9da61b;
+        color: $color1;
     }
     .card-text{
-        color:#9da61b;
+        color:$color1;
     }
 }

@@ -1,17 +1,22 @@
+$color1:#9da61b; 
+$color2:#e0cf2ebd; 
+$color3:#8f82128c ;
+$color4:#fcf9f9 ;
 
+/*Empresa*/
 .content-center {
     max-width: 1000px;
     margin: 0 auto 50px auto;
     text-align: left;
-    color:#9da61b;
+    color:$color1;
 
     .empresa_titulo{
         margin-bottom: 0 px;
-        color: #9da61b;
+        color: $color1;
         text-decoration: none;
     }
     .empresa_parrafo{
-        color:#e0cf2ebd;
+        color:$color2;
         text-decoration: none; 
     }
 }
@@ -30,7 +35,7 @@
     text-decoration: none;}
 
     .empresafototitulo{
-    color: #9da61b;
+    color: $color1;
     }
 }
 
@@ -49,4 +54,14 @@
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 
+}
+
+@each $servicios in diseño, instalacion, planificacion, reparacion {
+    .imgportadaservicios#{$servicios} {
+        width: 100%;
+        background-image: url(../imagenes/img-#{$servicios}.jpg);
+        background-position:center;
+        background-size: cover;
+        position: relative;
+    }    
 }
