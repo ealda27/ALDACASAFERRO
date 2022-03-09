@@ -1,6 +1,15 @@
+$color1:#9da61b; 
+$color2:#e0cf2ebd; 
+$color3:#8f82128c ;
+$color4:#fcf9f9 ;
+
 /*Separador*/
 .separador{
-    background-color: #8f82128c;
+    background-color: $color3;
     height: 5px;
     border: none;
+}
+.hr{
+    height:10rem;
+    background-color: $color3;
 }

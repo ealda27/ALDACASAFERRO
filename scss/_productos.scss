@@ -1,17 +1,21 @@
 $estiloproducto:(
-        color:rgb(87, 76, 16));
+        color:$color4);
 
 
 /*Productos*/
+.bd-highlight{
+        border-style: double;
+}
+
+
 .bg-light-green{
     background-color: rgb(231, 226, 180);
     
-
     .img-fluid{
     -moz-transition: all 0.8s;
     -webkit-transition: all 0.8s;
     transition: all 0;
-    width: 100%;
+    width: 90%;
     height: 90%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -28,6 +32,7 @@ $estiloproducto:(
     .productotexto{
         line-height: 1;
         font-size: 50%;
+       
     }        
     .producto_titulo{
         line-height: 1;

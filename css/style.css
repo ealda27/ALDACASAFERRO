@@ -1,11 +1,16 @@
 @charset "UTF-8";
 /*anidamiento*/
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap");
 /*Separador*/
 .separador {
   background-color: #8f82128c;
   height: 5px;
   border: none;
+}
+
+.hr {
+  height: 10rem;
+  background-color: #8f82128c;
 }
 
 /*Reset*/
@@ -149,10 +154,20 @@
   color: #a8a283;
 }
 
+.card-body {
+  line-height: 2;
+  text-align: center;
+}
+
+.card {
+  height: 100%;
+}
+
 /*Hero*/
 .hero {
   background-image: url(../imagenes/imagenprincipal1.jpg);
   background-size: cover;
+  height: auto;
   padding-top: 90px;
   margin: 10px;
   min-height: 300px;
@@ -376,6 +391,10 @@
 }
 
 /*Productos*/
+.bd-highlight {
+  border-style: double;
+}
+
 .bg-light-green {
   background-color: #e7e2b4;
 }
@@ -383,7 +402,7 @@
   -moz-transition: all 0.8s;
   -webkit-transition: all 0.8s;
   transition: all 0;
-  width: 100%;
+  width: 90%;
   height: 90%;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -445,7 +464,7 @@
 /*Animaciones Productos fin*/
 /*map-get*/
 .bd-highlight {
-  background-color: #574c10;
+  background-color: #fcf9f9;
 }
 
 /*MedioAmbiente*/
@@ -476,6 +495,9 @@
     line-height: 1;
     font-size: 70%;
   }
+}
+.medioambiente .carousel-item {
+  min-height: 10px;
 }
 .medioambiente .medioambiente_titulo {
   font-size: 40px;
@@ -548,7 +570,8 @@
 
 /*Footer*/
 .footer {
-  background-color: #8f82128c;
+  background-image: url(/imagenes/footer1.jpg);
+  background-size: cover;
   margin-top: 0px;
   margin-bottom: 0px;
   position: relative;
@@ -583,20 +606,20 @@
   border-radius: 90%;
 }
 .footer .ubicacion {
+  display: flexbox;
   align-items: center;
   text-align: center;
   color: #fcf9f9;
   margin-bottom: 0px;
-  display: flexbox;
 }
 .footer .fab {
+  display: flexbox;
   color: inherit;
   font-size: 40px;
   text-decoration: none;
   line-height: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
-  display: flexbox;
 }
 
 /*MediaQueries*/

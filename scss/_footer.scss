@@ -6,7 +6,8 @@ $color4:#fcf9f9 ;
 
 /*Footer*/
 .footer{
-    background-color: $color3;
+    background-image:url(/imagenes/footer1.jpg);
+    background-size: cover;
     margin-top: 0px;
     margin-bottom: 0px;
     position: relative;
@@ -41,20 +42,22 @@ $color4:#fcf9f9 ;
         border-radius: 90%;
     }
     .ubicacion{
+        display:flexbox;
         align-items: center;
         text-align: center;
         color: $color4;
         margin-bottom: 0px;
-        display:flexbox;
+        
     }
     .fab{
+        display: flexbox;
         color: inherit;
         font-size: 40px;
         text-decoration: none;
         line-height: 50px;
         margin-top: 0px;
         margin-bottom: 0px;
-        display: flexbox;
+        
     }
        
 }
