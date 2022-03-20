@@ -56,12 +56,3 @@ $color4:#fcf9f9 ;
 
 }
 
-@each $servicios in diseño, instalacion, planificacion, reparacion {
-    .imgportadaservicios#{$servicios} {
-        width: 100%;
-        background-image: url(../imagenes/img-#{$servicios}.jpg);
-        background-position:center;
-        background-size: cover;
-        position: relative;
-    }    
-}
