@@ -1,16 +1,17 @@
-$color1:#9da61b; 
-$color2:#e0cf2ebd; 
-$color3:#8f82128c ;
-$color4:#fcf9f9 ;
+$color1:#ccd5ae; 
+$color2:#b08968; 
+$color3:#6b705c ;
+$color4:#ffe8d6 ;
 
 /*MedioAmbiente*/
 .medioambiente{
     position: relative;
     align-items: center;
+    color:$color2;
 
     .medioambiente_titulo{
     text-align: center;
-    color: $color3;
+    color: $color4;
     }
     .medioambiente_video{
     width: 100%;
@@ -21,7 +22,7 @@ $color4:#fcf9f9 ;
     background-repeat: no repeat;
     }
     .medioambiente_parrafo{
-    color: $color3;
+    color: $color4;
     line-height: 3;
     text-align: center;
     }
@@ -34,12 +35,16 @@ $color4:#fcf9f9 ;
        
 }
 .carousel-item{
-   min-height: 10px;
+   min-height: 100px;
 }
+
+.img-carousel{
+   height:15vh;
+   object-fit: cover;}
 
 /*Mixin*/
 @mixin fontstyle {
-   color:$color3;
+   color:$color4;
    background-color: $color2;  
 }
 .medioambiente_titulo{

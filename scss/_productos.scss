@@ -1,3 +1,8 @@
+$color1:#ccd5ae; 
+$color2:#b08968; 
+$color3:#6b705c ;
+$color4:#ffe8d6 ;
+
 $estiloproducto:(
         color:$color4);
 
@@ -6,10 +11,19 @@ $estiloproducto:(
 .bd-highlight{
         border-style: double;
 }
-
+.productotexto{
+        color:$color3;
+       
+    }        
+    .producto_titulo{
+        color:$color3;
+    }
+    .producto_parrafo{
+        color:$color3;
+    }              
 
 .bg-light-green{
-    background-color: rgb(231, 226, 180);
+    background-color: $color4;
     
     .img-fluid{
     -moz-transition: all 0.8s;

@@ -1,18 +1,18 @@
-$color1:#9da61b; 
-$color2:#e0cf2ebd; 
-$color3:#8f82128c ;
-$color4:#fcf9f9 ;
+$color1:#ccd5ae; 
+$color2:#b08968; 
+$color3:#6b705c ;
+$color4:#ffe8d6 ;
 
 /*Empresa*/
 .content-center {
     max-width: 1000px;
     margin: 0 auto 50px auto;
     text-align: left;
-    color:$color1;
+    color:$color2;
 
     .empresa_titulo{
         margin-bottom: 0 px;
-        color: $color1;
+        color: $color2;
         text-decoration: none;
     }
     .empresa_parrafo{

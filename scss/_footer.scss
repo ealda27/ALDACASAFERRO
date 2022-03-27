@@ -1,12 +1,13 @@
-$color1:#9da61b; 
-$color2:#e0cf2ebd; 
-$color3:#8f82128c ;
-$color4:#fcf9f9 ;
+$color1:#ccd5ae; 
+$color2:#b08968; 
+$color3:#6b705c ;
+$color4:#ffe8d6 ;
 
 
 /*Footer*/
 .footer{
     background-image:url(../imagenes/footer1.jpg);
+    background-color: $color1;
     background-size: cover;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -52,7 +53,7 @@ $color4:#fcf9f9 ;
     .fab{
         display: flexbox;
         color: inherit;
-        font-size: 40px;
+        font-size: 3rem;
         text-decoration: none;
         line-height: 50px;
         margin-top: 0px;
