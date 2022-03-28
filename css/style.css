@@ -182,7 +182,7 @@
   font-weight: 600px;
   line-height: 80px;
   color: #ccd5ae;
-  margin-left: 200px;
+  margin-left: 150px;
   -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   font-weight: bold;
@@ -218,16 +218,16 @@
 }
 @media screen and (max-width: 480px) {
   .hero .hero_titulo {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 100px;
     line-height: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
     font-weight: bold;
   }
   .hero .hero_parrafo {
     font-size: 1rem;
     margin-bottom: 0;
-    margin-left: 70px;
+    margin-left: 30px;
   }
   .hero .hero_btn {
     font-size: 0.5rem;
