@@ -308,6 +308,7 @@
 }
 .card-body .card-text {
   color: #ccd5ae;
+  text-align: center;
 }
 
 /*Empresa*/
@@ -325,6 +326,7 @@
 .content-center .empresa_parrafo {
   color: #b08968;
   text-decoration: none;
+  text-align: justify;
 }
 
 .presentacion-container {
