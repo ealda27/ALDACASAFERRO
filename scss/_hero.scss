@@ -23,6 +23,7 @@ $color4:#ffe8d6 ;
             margin-left: 200px;
             -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
             animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            font-weight: bold;
         }
     .hero_parrafo{
             font-size: 1.5rem;
@@ -59,20 +60,23 @@ $color4:#ffe8d6 ;
     }
     @media screen and (max-width: 480px){
       .hero_titulo{
-        font-size: 2.5rem; 
-        font-weight: 300; 
-        line-height: 80px;
-        margin-left: 70px;}  
+        font-size: 3rem; 
+        font-weight: 100px; 
+        line-height: 50px;
+        margin-left: 50px;
+        font-weight: bold;
+      }  
 
       .hero_parrafo{
         font-size: 1rem;
         margin-bottom: 0;
         margin-left: 70px; }
+
       .hero_btn{
         font-size: 0.5rem;
         padding:10px 10px;
-        margin-left: 10px;
-        min-width: 80px;
+        margin-left: 120px;
+        min-width: 70px;
         align-items: center;
       }
 

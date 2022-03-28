@@ -185,6 +185,7 @@
   margin-left: 200px;
   -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  font-weight: bold;
 }
 .hero_contenedor .hero_parrafo {
   font-size: 1.5rem;
@@ -217,10 +218,11 @@
 }
 @media screen and (max-width: 480px) {
   .hero .hero_titulo {
-    font-size: 2.5rem;
-    font-weight: 300;
-    line-height: 80px;
-    margin-left: 70px;
+    font-size: 3rem;
+    font-weight: 100px;
+    line-height: 50px;
+    margin-left: 50px;
+    font-weight: bold;
   }
   .hero .hero_parrafo {
     font-size: 1rem;
@@ -230,8 +232,8 @@
   .hero .hero_btn {
     font-size: 0.5rem;
     padding: 10px 10px;
-    margin-left: 10px;
-    min-width: 80px;
+    margin-left: 120px;
+    min-width: 70px;
     align-items: center;
   }
 }
